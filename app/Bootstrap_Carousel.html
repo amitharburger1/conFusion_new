@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)https://d396qusza40orc.cloudfront.net/phoenixassets/web-frameworks/index.html -->
+<html lang="en">
+<head>
+<meta charset=""UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bootstrap Carousel </title>
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+   <link rel="stylesheet" href="css/mystyles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.10.1/bootstrap-social.css"><!--social  שימוש באיקונים וכפתורים -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"><!--awesome שימוש באיקונים  -->
+
+</head>
+
+<body class="body" cz-shortcut-listen="true" class="bg-info" data-spy="scroll" data-target="#myScrollspy" data-offset="200"><!--class="bg-info" צובע בתכלת את הרקע data-spy="scroll" data-target="#myScrollspy להפעלת  -->
+	<div class=" col-md-12 " ng-controller="AboutController">
+	
+		  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause > <!-- עוצר שהעכבר על data-pause    data-interva קובע את המהירות -->
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  <li data-target="#myCarousel" data-slide-to="leader.id"  ng-repeat="leader in Leaders" ></li>>
+			</ol>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox"  style="background:#aed8f2">
+			  <div class="item active">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                        <img class="media-object img-thumbnail"
+                         src="images\uthappizza.png" alt="Uthappizza">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="media-heading">Uthappizza <span class="label label-danger label-xs">Hot </span>  <span class="badge"> $4.99</span></h2>
+						
+                        <p>A unique combination of Indian Uthappam (pancake) and
+                          Italian pizza, topped with Cerignola olives, ripe vine
+                          cherry tomatoes, Vidalia onion, Guntur chillies and
+                          Buffalo Paneer.</p>
+                        <p><a class="btn btn-primary btn-xs" href="https://d396qusza40orc.cloudfront.net/phoenixassets/web-frameworks/index.html#" > More &raquo;</a></p>
+					</div>
+			  </div>
+
+			  <div class="item">
+					<div class="media-body">
+						<h2 class="media-heading">Weekend Grand Buffet <span class="label label-danger label-xs">New </span> </h2>
+						<p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+						<p><a class="btn btn-primary btn-xs" href="https://d396qusza40orc.cloudfront.net/phoenixassets/web-frameworks/index.html#">More &raquo;</a></p>
+					</div>
+					<div class="media-right media-middle">
+						<img class="media-object" src = "images\buffet.png" class="img-thumbnail" alt="boy image" style="width:100px">
+					</div>
+			  </div>
+			
+			  <div class="item">
+				    <div class="media-left media-middle">
+                        <a href="#">
+                        <img class="media-object img-thumbnail"
+                         src="images\alberto.png" alt="Alberto Somayya">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="media-heading">Alberto Somayya</h2>
+                        <h4>Executive Chef</h4>
+                        <p>Award winning three-star Michelin chef with wide
+                         International experience having worked closely with
+                         whos-who in the culinary world, he specializes in
+                          creating mouthwatering Indo-Italian fusion experiences.
+                         </p>
+                        <p><a class="btn btn-primary btn-xs" href="https://d396qusza40orc.cloudfront.net/phoenixassets/web-frameworks/index.html#">More &raquo;</a></p>
+                    </div>
+			  </div>
+
+
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+		</div>
+</div>	
+
+	
+	
+	
+	
+	
+	<div class=" col-md-12 ">
+	
+		  <br>
+		  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause > <!-- עוצר שהעכבר על data-pause    data-interva קובע את המהירות -->
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			  <li data-target="#myCarousel" data-slide-to="1"></li>
+			  <li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox"  style="background:#aed8f2">
+			  <div class="item active">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                        <img class="media-object img-thumbnail"
+                         src="images\uthappizza.png" alt="Uthappizza">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="media-heading">Uthappizza <span class="label label-danger label-xs">Hot </span>  <span class="badge"> $4.99</span></h2>
+						
+                        <p>A unique combination of Indian Uthappam (pancake) and
+                          Italian pizza, topped with Cerignola olives, ripe vine
+                          cherry tomatoes, Vidalia onion, Guntur chillies and
+                          Buffalo Paneer.</p>
+                        <p><a class="btn btn-primary btn-xs" href="https://d396qusza40orc.cloudfront.net/phoenixassets/web-frameworks/index.html#" > More &raquo;</a></p>
+					</div>
+			  </div>
+
+			  <div class="item">
+					<div class="media-body">
+						<h2 class="media-heading">Weekend Grand Buffet <span class="label label-danger label-xs">New </span> </h2>
+						<p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+						<p><a class="btn btn-primary btn-xs" href="https://d396qusza40orc.cloudfront.net/phoenixassets/web-frameworks/index.html#">More &raquo;</a></p>
+					</div>
+					<div class="media-right media-middle">
+						<img class="media-object" src = "images\buffet.png" class="img-thumbnail" alt="boy image" style="width:100px">
+					</div>
+			  </div>
+			
+			  <div class="item">
+				    <div class="media-left media-middle">
+                        <a href="#">
+                        <img class="media-object img-thumbnail"
+                         src="images\alberto.png" alt="Alberto Somayya">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="media-heading">Alberto Somayya</h2>
+                        <h4>Executive Chef</h4>
+                        <p>Award winning three-star Michelin chef with wide
+                         International experience having worked closely with
+                         whos-who in the culinary world, he specializes in
+                          creating mouthwatering Indo-Italian fusion experiences.
+                         </p>
+                        <p><a class="btn btn-primary btn-xs" href="https://d396qusza40orc.cloudfront.net/phoenixassets/web-frameworks/index.html#">More &raquo;</a></p>
+                    </div>
+			  </div>
+
+
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+		</div>
+</div>	
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+	<script src="scripts/controllers.js"></script>
+	<script src="scripts/services.js"></script>
+	 <script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="../bower_components/angular-resource/angular-resource.min.js"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+	integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"
+  
+      <script> <!--this code run the tooltip -->
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+	
+         }); 
+	</script>
+	
+   
+</body>
