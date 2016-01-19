@@ -12,6 +12,10 @@ command line-> git commit --all -m "comment here" ()
 command line-> git push
 
 
+Get update from server 
+ command line-> git pull
+
+
 Run the jason server 
 open command line
 cd to the Jason folder (the folder that contain the jeson DB )
